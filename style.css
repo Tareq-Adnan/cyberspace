@@ -1,0 +1,182 @@
+body{
+    background-image: url(images/bg.gif);
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: sans-serif;
+}
+.cyber{
+    height: 100px;
+    width: 150px;
+}
+.color{
+    color: rgb(0, 146, 165);
+}
+.color2{
+    color: rgb(0, 225, 255);
+}
+
+.pageTitle{
+    padding: 30px;
+    text-shadow: 5px 5px 15px black;
+    color: white;
+    display: block;
+    text-align: center;
+}
+.bgStyle{
+    height: 90vh;
+    width: 90%;
+    padding: 0,20px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(5px);
+    box-shadow: -15px 17px 17px rgba(10, 10, 10, .25);
+}
+
+.title{
+    color: white;
+    position: relative;
+    text-align: center;
+    top: 15%;
+    
+}
+.title h1{
+   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   margin-bottom: 20px;
+}
+
+
+nav{
+    position: relative;
+    top: 20%;
+}
+nav .menu{
+    height: 30vh;
+    width: 60%;
+    padding: 0,20px;
+    background: rgba(255, 255, 255, 0.1);
+    display: flex;
+    position: relative;
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(5px);
+    box-shadow: -15px 17px 17px rgba(10, 10, 10, .25);
+
+}
+.serv .menuo .logo{
+   height: 8vh;
+}
+.serv .menuo{
+    height: 10vh;
+    padding: 0,20px;
+    background: rgba(255, 255, 255, 0.1);
+    display: flex;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(5px);
+    box-shadow: -15px 17px 17px rgba(10, 10, 10, .25);
+
+}
+.menu ul{
+    flex-direction: row;
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: space-between;
+}
+.menuo ul{
+    flex-direction: row;
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: space-between;
+}
+.menu ul li{
+ display: inline-block;
+ padding: 0 20px;
+}
+.menuo ul li{
+    display: inline-block;
+    padding: 0 20px;
+   }
+.menu ul li a{
+    font-size: 11px;
+    text-decoration: none;
+    font-weight: 100;
+    text-align: center;
+}
+.menuo ul li a{
+    font-size: 11px;
+    text-decoration: none;
+    font-weight: 100;
+    text-align: center;
+}
+.menu ul li a i{
+    font-size: 27px;    
+}
+.menuo ul li a i{
+    font-size: 27px;    
+}
+.menu ul li:hover{
+    margin-bottom:20px;
+    transition: linear 0.1s;
+    text-shadow: 5px 5px 30px rgb(0, 195, 255);
+}
+.menuo ul li:hover{
+    margin-bottom:10px;
+    transition: linear 0.1s;
+    text-shadow: 5px 5px 30px rgb(0, 195, 255);
+}
+
+footer{
+    position: fixed;
+    text-align: center;
+    bottom: 5%;
+    left: 45%;
+    
+}
+.social{
+ 
+  bottom: 10%;
+  color: white;
+}
+
+.social .link ul {
+    display: flex;
+    text-align: center;
+}
+.social .link ul i{
+    align-items: center;
+    font-size: 25px;
+    padding: 10px;
+}
+.cds{
+    flex-direction: row;
+    display: flex;
+}
+.bg-light{
+    background-color: rgba(255, 255, 255, 0.685);
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 30px black;
+    margin-left: 30px;
+}
+.service{
+    height: 80vh;
+    margin-top: 30px;
+    width: 90%;
+    border-radius: 20px;
+    padding: 0,20px;
+    background: rgba(255, 255, 255, 0.1);
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(5px);
+    box-shadow: -15px 17px 17px rgba(10, 10, 10, .25);
+}
